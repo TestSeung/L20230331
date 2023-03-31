@@ -49,6 +49,8 @@ int main()
 			bIsRunning = false;
 		}
 		//Render();
+		system("cls");
+
 		for (int Y = 0; Y < 10; ++Y)
 		{
 			for (int X = 0; X < 10; ++X)
@@ -66,7 +68,7 @@ int main()
 				}
 			cout << endl;
 		}
-		//system("cls");
+		
 	}
 	return 0;
 }
